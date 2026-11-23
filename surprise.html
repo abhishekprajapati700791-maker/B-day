@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="index.html" class="logo">✦ Shivendra</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="memories.html">Memories</a>
+        <a href="gallery.html">Gallery</a>
+        <a class="active" href="surprise.html">Surprise</a>
+    </nav>
+    <button class="music-btn" onclick="toggleMusic()">♫ Music</button>
+</header>
+
+<audio id="birthdayMusic" loop>
+    <source src="music/birthday.mp3" type="audio/mpeg">
+</audio>
+
+<section class="surprise-page">
+    <p class="tag">A LITTLE SURPRISE FOR YOU</p>
+
+    <h1>Something Special Awaits...</h1>
+
+    <div class="gift-box" id="giftBox">
+        <div class="gift-lid">🎀</div>
+        <div class="gift-icon">🎁</div>
+    </div>
+
+    <button class="gold-btn" id="openGift">
+        Open Your Gift ✨
+    </button>
+
+    <div class="surprise-message" id="surpriseMessage">
+        <div class="big-cake">🎂</div>
+        <h2>Happy Birthday Shivendra!</h2>
+
+        <p>
+            May your life be filled with endless happiness,
+            wonderful opportunities, success and beautiful memories.
+            Never stop dreaming and never stop smiling.
+        </p>
+
+        <h3>Stay Blessed, My Friend! ❤️</h3>
+
+        <div class="final-stars">✦ ✨ 👑 ✨ ✦</div>
+    </div>
+</section>
+
+<footer>Made with ❤️ for Shivendra</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

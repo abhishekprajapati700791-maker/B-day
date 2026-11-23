@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivendra Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="index.html" class="logo">✦ Shivendra</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="memories.html">Memories</a>
+        <a class="active" href="gallery.html">Gallery</a>
+        <a href="surprise.html">Surprise</a>
+    </nav>
+    <button class="music-btn" onclick="toggleMusic()">♫ Music</button>
+</header>
+
+<audio id="birthdayMusic" loop>
+    <source src="music/birthday.mp3" type="audio/mpeg">
+</audio>
+
+<section class="page-heading">
+    <p class="tag">A COLLECTION OF SPECIAL MOMENTS</p>
+    <h1>Photo Gallery 📸</h1>
+    <p>Six pictures, countless memories.</p>
+</section>
+
+<section class="gallery-container">
+
+    <div class="gallery-item">
+        <img src="oip7.jpeg" alt="Memory 1">
+        <div class="gallery-caption">The Birthday Star ✨</div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="oip8.jpeg" alt="Memory 2">
+        <div class="gallery-caption">Royal Moments 👑</div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="oip5.jpeg" alt="Memory 3">
+        <div class="gallery-caption">Beautiful Smile ❤️</div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="oip6.jpeg" alt="Memory 4">
+        <div class="gallery-caption">Golden Memories ✨</div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="oip1.jpeg" alt="Memory 5">
+        <div class="gallery-caption">Special Moments 💛</div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="oip2.jpeg" alt="Memory 6">
+        <div class="gallery-caption">Forever Friends 🌸</div>
+    </div>
+
+</section>
+
+<div class="lightbox" id="lightbox">
+    <button class="close-lightbox" onclick="closeLightbox()">×</button>
+    <img id="largeImage" src="" alt="Large photo preview">
+</div>
+
+<section class="quote-section">
+    <h2>Every Picture Tells a Story ❤️</h2>
+    <p>And every memory is worth celebrating.</p>
+</section>
+
+<footer>Made with ❤️ for Shivendra</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
